@@ -1,0 +1,24 @@
+{
+    "name": "word",
+    "version": "1.0.0",
+    "description": "",
+    "source": "src/word.ts",
+    "main": "dist/word.js",
+    "module": "dist/word.module.cjs",
+    "unpkg": "./dist/word.umd.js",
+    "types": "dist/word.d.ts",
+    "exports": {
+        "require": "./dist/word.js",
+        "default": "./dist/word.modern.mjs"
+    },
+    "scripts": {
+        "build": "microbundle",
+        "test": "vitest run"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "microbundle": "^0.15.1"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "start": "tsx src/main.ts",
+        "test": "vitest run",
+        "build": "pnpm -r build",
+        "test:watch": "vitest watch"
+    },
+    "dependencies": {
+        "word": "workspace:*",
+        "@types/node": "^18.13.0",
+        "tsx": "^3.12.3",
+        "vitest": "^0.28.5"
+    }
+}
