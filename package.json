@@ -1,4 +1,6 @@
 {
+    "private": true,
+    "name": "pnpm-monorepo",
     "scripts": {
         "start": "tsx src/main.ts",
         "test": "vitest run",
